@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.main{
+	padding: 10px;
+	margin-left: 15px;
+}
+
+.raw{
+	border: 2px solid #000;
+	width: 31%;
+	height: auto;
+	background-color: #9966ff;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+p{
+	margin-top: 40px;
+	padding: 10px;
+}
+.a1{
+	padding-top: 3px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	position: absolute;
+	background-color: #cc3300;
+	color: #fff;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+
+.a2{
+	padding-top: 3px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	position: absolute;
+	background-color: #660033;
+	color: #fff;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+
+.a3{
+	padding-top: 3px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	position: absolute;
+	color: #fff;
+	background-color: #cc9900;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+@media screen and (min-width:992px){
+
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+.raw{
+	position: relative;
+	border: 2px solid #000;
+	width: 47%;
+	height: auto;
+	background-color: #9966ff;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+.raw p{
+	font-size: 20px;
+}
+.raw:nth-child(3){
+	width: 96.5%;
+}
+
+}
+
+@media only screen and (max-width:467px){
+
+	.raw{
+	position: relative;
+	border: 2px solid #000;
+	width: 96.5%;
+	height: auto;
+	background-color: #9966ff;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+
+}
